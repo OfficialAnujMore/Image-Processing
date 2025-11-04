@@ -13,3 +13,4 @@ cv2.imwrite(os.path.join('..', 'assets', 'bird_out.jpg'), img)
 cv2.imshow('image', img)
 # Close image viewer after x millisecond
 cv2.waitKey(5000) 
+cv2.destroyAllWindows()

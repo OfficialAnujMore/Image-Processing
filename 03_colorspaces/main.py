@@ -17,3 +17,4 @@ cv2.imshow('img_hsv', img_hsv)
 
 
 cv2.waitKey(0)
+cv2.destroyAllWindows()
